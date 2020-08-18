@@ -14,7 +14,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
     ProductPageComponent,
     ProductDescriptionComponent,
   ],
-  imports: [BrowserModule, FormsModule, HttpModule, ProductService],
+  imports: [BrowserModule, FormsModule, HttpModule],
   providers: [ProductService],
   bootstrap: [AppComponent],
 })
